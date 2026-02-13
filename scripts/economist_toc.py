@@ -8,11 +8,72 @@ import os
 import sys
 import subprocess
 import urllib.parse
+import urllib.request
+import json
 import fitz  # PyMuPDF
 from datetime import datetime
 
 REPO_DIR = "/workspaces/awesome-english-ebooks"
 TELEGRAM_CHAT_ID = "1268358344"
+KIMI_API_KEY = "sk-xdLnWGrw3hrjJnNk9QpAN4jYd4gSYRc6675p0aVqa7cO1cY3"
+KIMI_API_URL = "https://api.moonshot.cn/v1/chat/completions"
+
+# 缓存翻译结果，避免重复调用 API
+translation_cache = {}
+
+def translate_with_kimi(title):
+    """使用 Kimi API 翻译标题"""
+    if title in translation_cache:
+        return translation_cache[title]
+    
+    # 简单的短语直接翻译
+    simple_translations = {
+        "Politics": "政治",
+        "Business": "商业",
+        "The weekly cartoon": "本周漫画",
+    }
+    if title in simple_translations:
+        return simple_translations[title]
+    
+    try:
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {KIMI_API_KEY}"
+        }
+        
+        data = {
+            "model": "moonshot-v1-8k",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "你是一个专业的翻译助手。请将给定的经济学人文章标题翻译成简洁准确的中文，只返回翻译结果，不要解释。"
+                },
+                {
+                    "role": "user",
+                    "content": f"请翻译以下标题：{title}"
+                }
+            ],
+            "temperature": 0.3
+        }
+        
+        req = urllib.request.Request(
+            KIMI_API_URL,
+            data=json.dumps(data).encode('utf-8'),
+            headers=headers,
+            method='POST'
+        )
+        
+        with urllib.request.urlopen(req, timeout=10) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            translation = result['choices'][0]['message']['content'].strip()
+            # 清理可能的引号
+            translation = translation.strip('"「」『』')
+            translation_cache[title] = translation
+            return translation
+            
+    except Exception as e:
+        print(f"  ⚠️ 翻译失败: {title[:30]}... - {e}")
+        return "[待译]"
 
 def run(cmd):
     """执行 shell 命令"""
@@ -217,8 +278,123 @@ def extract_toc_from_pdf(pdf_path):
     
     return sections_data
 
+def translate_title(title):
+    """
+    翻译文章标题为中文
+    使用 Kimi API 进行翻译
+    """
+    # 常见短语的直接映射（避免 API 调用）
+    translations = {
+        "Politics": "政治",
+        "Business": "商业",
+        "The weekly cartoon": "本周漫画",
+    }
+    
+    if title in translations:
+        return translations[title]
+    
+    # 使用 Kimi API 翻译
+    return translate_with_kimi(title)
+
+def batch_translate_titles(titles):
+    """批量翻译标题，减少 API 调用次数 - 分批处理"""
+    if not titles:
+        return {}
+    
+    # 检查缓存
+    cached = {}
+    to_translate = []
+    for title in titles:
+        if title in translation_cache:
+            cached[title] = translation_cache[title]
+        else:
+            to_translate.append(title)
+    
+    if not to_translate:
+        return cached
+    
+    # 分批翻译，每批 5 个标题
+    batch_size = 5
+    total = len(to_translate)
+    
+    for batch_start in range(0, total, batch_size):
+        batch_end = min(batch_start + batch_size, total)
+        batch = to_translate[batch_start:batch_end]
+        
+        print(f"  翻译批次 {batch_start//batch_size + 1}/{(total-1)//batch_size + 1} ({batch_start+1}-{batch_end}/{total})...", end=" ", flush=True)
+        
+        try:
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {KIMI_API_KEY}"
+            }
+            
+            # 构建批量翻译提示
+            titles_text = "\n".join([f"{i+1}. {title}" for i, title in enumerate(batch)])
+            
+            data = {
+                "model": "moonshot-v1-8k",
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "你是一个专业的翻译助手。请将以下经济学人文章标题翻译成简洁准确的中文。保持原有编号顺序，每行只返回翻译结果，格式：1. [翻译]\n2. [翻译]"
+                    },
+                    {
+                        "role": "user",
+                        "content": f"请翻译以下标题：\n{titles_text}"
+                    }
+                ],
+                "temperature": 0.3
+            }
+            
+            req = urllib.request.Request(
+                KIMI_API_URL,
+                data=json.dumps(data).encode('utf-8'),
+                headers=headers,
+                method='POST'
+            )
+            
+            with urllib.request.urlopen(req, timeout=30) as response:
+                result = json.loads(response.read().decode('utf-8'))
+                translation = result['choices'][0]['message']['content'].strip()
+                
+                # 解析批量翻译结果
+                for i, title in enumerate(batch):
+                    # 查找对应编号的翻译
+                    found = False
+                    for line in translation.split('\n'):
+                        line_stripped = line.strip()
+                        if line_stripped.startswith(f"{i+1}.") or line_stripped.startswith(f"{i+1}、"):
+                            # 找到分隔符后的内容
+                            for sep in ['. ', '、', '.', ' ']:
+                                if sep in line_stripped[2:]:
+                                    cn_title = line_stripped.split(sep, 1)[1].strip()
+                                    break
+                            else:
+                                cn_title = line_stripped[2:].strip()
+                            cn_title = cn_title.strip('"「」『』')
+                            if cn_title:
+                                translation_cache[title] = cn_title
+                                cached[title] = cn_title
+                                found = True
+                                break
+                    
+                    if not found:
+                        # 如果没找到对应行，使用单条翻译
+                        cached[title] = translate_with_kimi(title)
+                
+                print("✓")
+                        
+        except Exception as e:
+            print(f"✗ ({e})")
+            # 失败时逐个翻译
+            for title in batch:
+                cached[title] = translate_with_kimi(title)
+    
+    return cached
+
 def format_toc(sections_data, pdf_path):
-    """格式化目录为 Markdown 格式，带可点击链接"""
+    """格式化目录为 Markdown 格式，带可点击链接和中英对照"""
     date_str = "Unknown"
     parts = pdf_path.split('/')
     for part in parts:
@@ -226,28 +402,48 @@ def format_toc(sections_data, pdf_path):
             date_str = part[3:].replace('.', '/')
             break
     
+    # 收集所有需要翻译的标题
+    all_titles = []
+    for sec_en, sec_cn, articles in sections_data:
+        for title, page in articles:
+            if title not in {"Politics", "Business", "The weekly cartoon"}:
+                all_titles.append(title)
+    
+    # 批量翻译
+    print(f"🌐 正在翻译 {len(all_titles)} 个标题...")
+    translations = batch_translate_titles(all_titles)
+    print(f"✅ 翻译完成")
+    
     lines = [f"📰 *The Economist | 经济学人* - {date_str}\n"]
-    lines.append("─" * 40 + "\n")
+    lines.append("─" * 50 + "\n")
+    
+    # 添加使用说明
+    lines.append("💡 *使用说明*")
+    lines.append("• 点击英文标题可在 Google 搜索原文")
+    lines.append("• 运行以下命令查看文章内容：")
+    lines.append(f"  `python3 scripts/economist_article.py \"文章标题\"`")
+    lines.append("")
     
     total_articles = 0
     for sec_en, sec_cn, articles in sections_data:
         total_articles += len(articles)
-        # 板块标题加粗
-        lines.append(f"\n*{sec_en}* ｜ {sec_cn}")
+        # 板块标题加粗，英中对照
+        lines.append(f"\n📂 *{sec_en}* ｜ {sec_cn}")
         
         for title, page in articles:
-            # 构建搜索链接（使用标题搜索）
-            # 对标题进行 URL 编码
-            import urllib.parse
+            # 获取翻译
+            cn_title = translations.get(title, "[待译]")
+            
+            # 构建搜索链接
             search_query = urllib.parse.quote(f"{title} site:economist.com")
             search_url = f"https://www.google.com/search?q={search_query}"
             
-            # Markdown 格式：标题可点击，页码在右侧
-            lines.append(f"• [{title}]({search_url}) ｜ _p.{page}_")
+            # 格式：英文标题(中文翻译) + 页码
+            lines.append(f"• [{title}]({search_url}) _{cn_title}_ ｜ p.{page}")
         
         lines.append("")
     
-    lines.append("─" * 40)
+    lines.append("─" * 50)
     lines.append(f"\n_总计: {len(sections_data)} 个板块, {total_articles} 篇文章_")
     
     return "\n".join(lines)
@@ -265,6 +461,84 @@ def save_to_file(message, pdf_path):
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(message)
     print(f"💾 目录已保存到: {output_path}")
+    return output_path
+
+def extract_all_articles_content(pdf_path, sections_data):
+    """
+    提取所有文章的完整内容
+    返回一个包含所有文章内容的字符串
+    """
+    doc = fitz.open(pdf_path)
+    toc = doc.get_toc()
+    
+    # 构建标题到页码的映射
+    title_to_page = {}
+    for level, title, page in toc:
+        if len(title) > 3:
+            title_to_page[title.lower()] = (title, page)
+    
+    lines = []
+    lines.append("📚 THE ECONOMIST - FULL CONTENT INDEX")
+    lines.append("=" * 60)
+    lines.append("")
+    
+    for sec_en, sec_cn, articles in sections_data:
+        lines.append(f"\n{'='*60}")
+        lines.append(f"📂 {sec_en} | {sec_cn}")
+        lines.append("=" * 60)
+        
+        for article_title, article_page in articles:
+            lines.append(f"\n{'─'*60}")
+            lines.append(f"📰 {article_title}")
+            lines.append(f"📄 Page {article_page}")
+            lines.append("─" * 60)
+            lines.append("")
+            
+            # 找到下一篇文章的页码
+            next_page = None
+            for idx, (level, title, page) in enumerate(toc):
+                if title.lower() == article_title.lower() or title.lower().startswith(article_title.lower()[:50]):
+                    # 找到当前文章
+                    if idx + 1 < len(toc):
+                        next_page = toc[idx + 1][2]
+                    break
+            
+            # 提取文章内容（最多3页）
+            start_page = article_page - 1
+            end_page = next_page - 1 if next_page else start_page + 3
+            
+            content_extracted = False
+            for page_num in range(start_page, min(end_page, start_page + 3)):
+                if page_num >= len(doc):
+                    break
+                page = doc[page_num]
+                text = page.get_text()
+                if text.strip():
+                    lines.append(text)
+                    lines.append("")
+                    content_extracted = True
+            
+            if not content_extracted:
+                lines.append("[Content not available]")
+            
+            lines.append("")
+    
+    doc.close()
+    return "\n".join(lines)
+
+def save_full_content(content, pdf_path):
+    """保存完整内容到文件"""
+    date_str = "unknown"
+    parts = pdf_path.split('/')
+    for part in parts:
+        if part.startswith('te_'):
+            date_str = part[3:]
+            break
+    
+    output_path = f"/home/codespace/.openclaw/workspace/economist_full_content_{date_str}.txt"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    print(f"💾 完整内容索引已保存到: {output_path}")
     return output_path
 
 def send_to_telegram(message):
@@ -335,11 +609,16 @@ def main():
         print("❌ 未提取到任何文章")
         return 1
     
-    print("📝 格式化...")
+    print("📝 格式化目录...")
     message = format_toc(sections_data, pdf_path)
     
-    # 保存到文件
+    # 保存目录到文件
     save_to_file(message, pdf_path)
+    
+    # 提取完整文章内容
+    print("📄 提取完整文章内容...")
+    full_content = extract_all_articles_content(pdf_path, sections_data)
+    save_full_content(full_content, pdf_path)
     
     # 打印预览
     print("\n" + "="*50)
@@ -348,7 +627,7 @@ def main():
         print(f"\n... (还有 {len(message)-2500} 字符)")
     print("="*50 + "\n")
     
-    print("📤 发送到 Telegram...")
+    print("📤 发送目录到 Telegram...")
     send_to_telegram(message)
     
     print("✅ 完成!")
