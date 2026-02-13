@@ -9,9 +9,9 @@
 
 
 📂 *The world this week* ｜ 本周世界
-• [Politics](https://www.google.com/search?q=Politics%20site%3Aeconomist.com) _政治_ ｜ p.7
-• [Business](https://www.google.com/search?q=Business%20site%3Aeconomist.com) _商业_ ｜ p.12
-• [The weekly cartoon](https://www.google.com/search?q=The%20weekly%20cartoon%20site%3Aeconomist.com) _本周漫画_ ｜ p.15
+• [Politics](https://www.google.com/search?q=Politics%20site%3Aeconomist.com) _[待译]_ ｜ p.7
+• [Business](https://www.google.com/search?q=Business%20site%3Aeconomist.com) _[待译]_ ｜ p.12
+• [The weekly cartoon](https://www.google.com/search?q=The%20weekly%20cartoon%20site%3Aeconomist.com) _[待译]_ ｜ p.15
 
 
 📂 *Leaders* ｜ 社论
@@ -24,7 +24,7 @@
 
 
 📂 *Letters* ｜ 读者来信
-• [Is education technology mostly useless?](https://www.google.com/search?q=Is%20education%20technology%20mostly%20useless%3F%20site%3Aeconomist.com) _教育技术是否大多无用？_ ｜ p.39
+• [Is education technology mostly useless?](https://www.google.com/search?q=Is%20education%20technology%20mostly%20useless%3F%20site%3Aeconomist.com) _教育技术大多无用吗？_ ｜ p.39
 
 
 📂 *Briefing* ｜ 深度报道
@@ -32,45 +32,45 @@
 
 
 📂 *United States* ｜ 美国
-• [How Democrats aim to curb ICE without losing votes](https://www.google.com/search?q=How%20Democrats%20aim%20to%20curb%20ICE%20without%20losing%20votes%20site%3Aeconomist.com) _民主党如何旨在遏制ICE而不失去选票_ ｜ p.58
-• [America may be reaching peak Spanish](https://www.google.com/search?q=America%20may%20be%20reaching%20peak%20Spanish%20site%3Aeconomist.com) _美国的西班牙语使用可能达到顶峰_ ｜ p.63
-• [Lawsuits over transgender medicine for minors could be huge](https://www.google.com/search?q=Lawsuits%20over%20transgender%20medicine%20for%20minors%20could%20be%20huge%20site%3Aeconomist.com) _针对未成年人跨性别医疗的诉讼可能规模巨大_ ｜ p.66
+• [How Democrats aim to curb ICE without losing votes](https://www.google.com/search?q=How%20Democrats%20aim%20to%20curb%20ICE%20without%20losing%20votes%20site%3Aeconomist.com) _民主党如何在不失去选票的情况下限制ICE_ ｜ p.58
+• [America may be reaching peak Spanish](https://www.google.com/search?q=America%20may%20be%20reaching%20peak%20Spanish%20site%3Aeconomist.com) _美国的西班牙语使用可能已达顶峰_ ｜ p.63
+• [Lawsuits over transgender medicine for minors could be huge](https://www.google.com/search?q=Lawsuits%20over%20transgender%20medicine%20for%20minors%20could%20be%20huge%20site%3Aeconomist.com) _针对未成年人跨性别治疗的诉讼可能规模巨大_ ｜ p.66
 • [The decline of single-earner housebuyers in America](https://www.google.com/search?q=The%20decline%20of%20single-earner%20housebuyers%20in%20America%20site%3Aeconomist.com) _美国单收入家庭购房者的减少_ ｜ p.70
-• [Alabama offers three tricks to fix poor urban schools](https://www.google.com/search?q=Alabama%20offers%20three%20tricks%20to%20fix%20poor%20urban%20schools%20site%3Aeconomist.com) _阿拉巴马提供三个技巧来改善贫困城市学校_ ｜ p.74
-• [RFK’s idea of making America healthy starts with making it politically sicker](https://www.google.com/search?q=RFK%E2%80%99s%20idea%20of%20making%20America%20healthy%20starts%20with%20making%20it%20politically%20sicker%20site%3Aeconomist.com) _罗伯特·肯尼迪通过使美国政治更加病态来实现其健康美国的理念_ ｜ p.79
+• [Alabama offers three tricks to fix poor urban schools](https://www.google.com/search?q=Alabama%20offers%20three%20tricks%20to%20fix%20poor%20urban%20schools%20site%3Aeconomist.com) _阿拉巴马提供三种方法改善贫困城市学校_ ｜ p.74
+• [RFK’s idea of making America healthy starts with making it politically sicker](https://www.google.com/search?q=RFK%E2%80%99s%20idea%20of%20making%20America%20healthy%20starts%20with%20making%20it%20politically%20sicker%20site%3Aeconomist.com) _罗伯特·肯尼迪通过使美国政治更病态来实现健康美国的理念_ ｜ p.79
 
 
 📂 *The Americas* ｜ 美洲
 • [Brazil’s economy is being throttled by entrenched interests](https://www.google.com/search?q=Brazil%E2%80%99s%20economy%20is%20being%20throttled%20by%20entrenched%20interests%20site%3Aeconomist.com) _巴西经济受到根深蒂固利益集团的扼杀_ ｜ p.84
-• [Cuba’s fate may be in Marco Rubio’s hands](https://www.google.com/search?q=Cuba%E2%80%99s%20fate%20may%20be%20in%20Marco%20Rubio%E2%80%99s%20hands%20site%3Aeconomist.com) _古巴的命运可能掌握在马尔科·鲁比奥手中_ ｜ p.91
+• [Cuba’s fate may be in Marco Rubio’s hands](https://www.google.com/search?q=Cuba%E2%80%99s%20fate%20may%20be%20in%20Marco%20Rubio%E2%80%99s%20hands%20site%3Aeconomist.com) _古巴的命运可能掌握在马尔科·卢比奥手中_ ｜ p.91
 • [Central America’s biggest city is eternally snarled with traffic](https://www.google.com/search?q=Central%20America%E2%80%99s%20biggest%20city%20is%20eternally%20snarled%20with%20traffic%20site%3Aeconomist.com) _中美洲最大城市永远陷入交通拥堵_ ｜ p.94
 
 
 📂 *Asia* ｜ 亚洲
 • [How Japan’s prime minister will use her massive new mandate](https://www.google.com/search?q=How%20Japan%E2%80%99s%20prime%20minister%20will%20use%20her%20massive%20new%20mandate%20site%3Aeconomist.com) _日本首相将如何利用她巨大的新授权_ ｜ p.97
-• [Led by a Marxist, battered by a storm, Sri Lanka is doing better](https://www.google.com/search?q=Led%20by%20a%20Marxist%2C%20battered%20by%20a%20storm%2C%20Sri%20Lanka%20is%20doing%20better%20site%3Aeconomist.com) _斯里兰卡在马克思主义者领导下，经受风暴打击，表现更好_ ｜ p.102
+• [Led by a Marxist, battered by a storm, Sri Lanka is doing better](https://www.google.com/search?q=Led%20by%20a%20Marxist%2C%20battered%20by%20a%20storm%2C%20Sri%20Lanka%20is%20doing%20better%20site%3Aeconomist.com) _在马克思主义者领导下，饱受风暴打击的斯里兰卡表现更好_ ｜ p.102
 • [Asia is turning stablecoins into banking infrastructure](https://www.google.com/search?q=Asia%20is%20turning%20stablecoins%20into%20banking%20infrastructure%20site%3Aeconomist.com) _亚洲将稳定币转变为银行基础设施_ ｜ p.106
-• [Thailand’s conservatives win a shock big victory](https://www.google.com/search?q=Thailand%E2%80%99s%20conservatives%20win%20a%20shock%20big%20victory%20site%3Aeconomist.com) _泰国保守派赢得惊人大胜_ ｜ p.109
-• [India, Pakistan and Bangladesh are weaponising cricket](https://www.google.com/search?q=India%2C%20Pakistan%20and%20Bangladesh%20are%20weaponising%20cricket%20site%3Aeconomist.com) _巴基斯坦和孟加拉国正在武器化板球_ ｜ p.112
+• [Thailand’s conservatives win a shock big victory](https://www.google.com/search?q=Thailand%E2%80%99s%20conservatives%20win%20a%20shock%20big%20victory%20site%3Aeconomist.com) _泰国保守派意外赢得重大胜利_ ｜ p.109
+• [India, Pakistan and Bangladesh are weaponising cricket](https://www.google.com/search?q=India%2C%20Pakistan%20and%20Bangladesh%20are%20weaponising%20cricket%20site%3Aeconomist.com) _巴基斯坦和孟加拉国正在将板球武器化_ ｜ p.112
 
 
 📂 *China* ｜ 中国
 • [What China is really up to in the Arctic](https://www.google.com/search?q=What%20China%20is%20really%20up%20to%20in%20the%20Arctic%20site%3Aeconomist.com) _中国在北极的真正意图_ ｜ p.116
 • [What’s the point of AI in acupuncture?](https://www.google.com/search?q=What%E2%80%99s%20the%20point%20of%20AI%20in%20acupuncture%3F%20site%3Aeconomist.com) _人工智能在针灸中的作用是什么？_ ｜ p.121
-• [Why China’s concert scene has boomed since the pandemic](https://www.google.com/search?q=Why%20China%E2%80%99s%20concert%20scene%20has%20boomed%20since%20the%20pandemic%20site%3Aeconomist.com) _为什么自疫情以来中国的音乐会场景蓬勃发展_ ｜ p.124
+• [Why China’s concert scene has boomed since the pandemic](https://www.google.com/search?q=Why%20China%E2%80%99s%20concert%20scene%20has%20boomed%20since%20the%20pandemic%20site%3Aeconomist.com) _为什么中国的音乐现场自疫情以来蓬勃发展_ ｜ p.124
 
 
 📂 *Middle East & Africa* ｜ 中东与非洲
-• [Don’t welcome Africa’s newest despot](https://www.google.com/search?q=Don%E2%80%99t%20welcome%20Africa%E2%80%99s%20newest%20despot%20site%3Aeconomist.com) _[别欢迎非洲最新的独裁者]_ ｜ p.128
-• [A deadly attack shows Nigeria’s security crisis is worsening](https://www.google.com/search?q=A%20deadly%20attack%20shows%20Nigeria%E2%80%99s%20security%20crisis%20is%20worsening%20site%3Aeconomist.com) _[致命袭击显示尼日利亚安全危机正在恶化]_ ｜ p.132
-• [How Africa’s hottest new museum unravelled](https://www.google.com/search?q=How%20Africa%E2%80%99s%20hottest%20new%20museum%20unravelled%20site%3Aeconomist.com) _[非洲最热门的新博物馆是如何解体的]_ ｜ p.136
-• [Why Syria and Iraq cannot reconcile](https://www.google.com/search?q=Why%20Syria%20and%20Iraq%20cannot%20reconcile%20site%3Aeconomist.com) _[为何叙利亚和伊拉克无法和解]_ ｜ p.139
-• [Why Saudis feel squeezed even as the economy booms](https://www.google.com/search?q=Why%20Saudis%20feel%20squeezed%20even%20as%20the%20economy%20booms%20site%3Aeconomist.com) _[为何沙特人在经济繁荣时仍感到压力]_ ｜ p.142
+• [Don’t welcome Africa’s newest despot](https://www.google.com/search?q=Don%E2%80%99t%20welcome%20Africa%E2%80%99s%20newest%20despot%20site%3Aeconomist.com) _别欢迎非洲最新的独裁者_ ｜ p.128
+• [A deadly attack shows Nigeria’s security crisis is worsening](https://www.google.com/search?q=A%20deadly%20attack%20shows%20Nigeria%E2%80%99s%20security%20crisis%20is%20worsening%20site%3Aeconomist.com) _致命袭击显示尼日利亚安全危机正在恶化_ ｜ p.132
+• [How Africa’s hottest new museum unravelled](https://www.google.com/search?q=How%20Africa%E2%80%99s%20hottest%20new%20museum%20unravelled%20site%3Aeconomist.com) _非洲最热门的新博物馆是如何解体的_ ｜ p.136
+• [Why Syria and Iraq cannot reconcile](https://www.google.com/search?q=Why%20Syria%20and%20Iraq%20cannot%20reconcile%20site%3Aeconomist.com) _为何叙利亚和伊拉克无法和解_ ｜ p.139
+• [Why Saudis feel squeezed even as the economy booms](https://www.google.com/search?q=Why%20Saudis%20feel%20squeezed%20even%20as%20the%20economy%20booms%20site%3Aeconomist.com) _为何沙特人即使在经济繁荣时也感到压力_ ｜ p.142
 
 
 📂 *Europe* ｜ 欧洲
-• [A European fighter-jet partnership is verging on a break-up](https://www.google.com/search?q=A%20European%20fighter-jet%20partnership%20is%20verging%20on%20a%20break-up%20site%3Aeconomist.com) _欧洲战斗机合作伙伴关系濒临破裂_ ｜ p.147
-• [Emmanuel Macron declares a European state of emergency](https://www.google.com/search?q=Emmanuel%20Macron%20declares%20a%20European%20state%20of%20emergency%20site%3Aeconomist.com) _埃马纽埃尔·马克龙宣布欧洲进入紧急状态_ ｜ p.151
+• [A European fighter-jet partnership is verging on a break-up](https://www.google.com/search?q=A%20European%20fighter-jet%20partnership%20is%20verging%20on%20a%20break-up%20site%3Aeconomist.com) _欧洲战斗机合作项目濒临破裂_ ｜ p.147
+• [Emmanuel Macron declares a European state of emergency](https://www.google.com/search?q=Emmanuel%20Macron%20declares%20a%20European%20state%20of%20emergency%20site%3Aeconomist.com) _埃马纽埃尔·马克龙宣布欧洲紧急状态_ ｜ p.151
 • [Can Germany rearm its way to growth?](https://www.google.com/search?q=Can%20Germany%20rearm%20its%20way%20to%20growth%3F%20site%3Aeconomist.com) _德国能否通过重新武装实现增长？_ ｜ p.155
 • [The Epstein files are sullying Norway’s squeaky-clean image](https://www.google.com/search?q=The%20Epstein%20files%20are%20sullying%20Norway%E2%80%99s%20squeaky-clean%20image%20site%3Aeconomist.com) _爱泼斯坦档案玷污了挪威一尘不染的形象_ ｜ p.159
 • [At the last open crossing, Ukrainians flee Russia’s annexation](https://www.google.com/search?q=At%20the%20last%20open%20crossing%2C%20Ukrainians%20flee%20Russia%E2%80%99s%20annexation%20site%3Aeconomist.com) _在最后一个开放的过境点，乌克兰人逃离俄罗斯的吞并_ ｜ p.161
@@ -78,10 +78,10 @@
 
 
 📂 *Britain* ｜ 英国
-• [Sir Keir Starmer clings to office—but not power](https://www.google.com/search?q=Sir%20Keir%20Starmer%20clings%20to%20office%E2%80%94but%20not%20power%20site%3Aeconomist.com) _基尔·斯塔默爵士坚持留任——但权力不再_ ｜ p.170
+• [Sir Keir Starmer clings to office—but not power](https://www.google.com/search?q=Sir%20Keir%20Starmer%20clings%20to%20office%E2%80%94but%20not%20power%20site%3Aeconomist.com) _基尔·斯塔默爵士坚持留任，但权力不再_ ｜ p.170
 • [King Charles tries to limit the fallout from Andrew’s Epstein mess](https://www.google.com/search?q=King%20Charles%20tries%20to%20limit%20the%20fallout%20from%20Andrew%E2%80%99s%20Epstein%20mess%20site%3Aeconomist.com) _查尔斯国王试图限制安德鲁的爱泼斯坦丑闻影响_ ｜ p.175
 • [Britain’s shifting GDP numbers](https://www.google.com/search?q=Britain%E2%80%99s%20shifting%20GDP%20numbers%20site%3Aeconomist.com) _英国GDP数字的变化_ ｜ p.177
-• [Tin mining is making a surprise return to Cornwall](https://www.google.com/search?q=Tin%20mining%20is%20making%20a%20surprise%20return%20to%20Cornwall%20site%3Aeconomist.com) _锡矿开采意外回归康沃尔_ ｜ p.180
+• [Tin mining is making a surprise return to Cornwall](https://www.google.com/search?q=Tin%20mining%20is%20making%20a%20surprise%20return%20to%20Cornwall%20site%3Aeconomist.com) _锡矿开采意外回归康沃尔郡_ ｜ p.180
 • [Alpha offers a starter course in salvation](https://www.google.com/search?q=Alpha%20offers%20a%20starter%20course%20in%20salvation%20site%3Aeconomist.com) _阿尔法提供了救赎的入门课程_ ｜ p.184
 • [Britain’s “Hillsborough law”, pledging candour, is avoiding it](https://www.google.com/search?q=Britain%E2%80%99s%20%E2%80%9CHillsborough%20law%E2%80%9D%2C%20pledging%20candour%2C%20is%20avoiding%20it%20site%3Aeconomist.com) _英国的“希尔斯堡法律”承诺坦率，却在回避它_ ｜ p.187
 • [The alternatives to Sir Keir](https://www.google.com/search?q=The%20alternatives%20to%20Sir%20Keir%20site%3Aeconomist.com) _替代基尔爵士的人选_ ｜ p.191
@@ -89,23 +89,23 @@
 
 📂 *International* ｜ 国际
 • [Inside Jeffrey Epstein’s network](https://www.google.com/search?q=Inside%20Jeffrey%20Epstein%E2%80%99s%20network%20site%3Aeconomist.com) _深入杰弗里·爱泼斯坦的网络_ ｜ p.196
-• [Are liberal values a luxury the West cannot afford?](https://www.google.com/search?q=Are%20liberal%20values%20a%20luxury%20the%20West%20cannot%20afford%3F%20site%3Aeconomist.com) _自由价值观是西方无法负担的奢侈品吗？_ ｜ p.200
+• [Are liberal values a luxury the West cannot afford?](https://www.google.com/search?q=Are%20liberal%20values%20a%20luxury%20the%20West%20cannot%20afford%3F%20site%3Aeconomist.com) _自由价值观是西方无法承担的奢侈品吗？_ ｜ p.200
 
 
 📂 *Essay* ｜ 随笔
-• [America at 250](https://www.google.com/search?q=America%20at%20250%20site%3Aeconomist.com) _美国250年_ ｜ p.205
-• [The Declaration of Independence still defines America’s purpose, writes Jon Meacham](https://www.google.com/search?q=The%20Declaration%20of%20Independence%20still%20defines%20America%E2%80%99s%20purpose%2C%20writes%20Jon%20Meacham%20site%3Aeconomist.com) _乔恩·米查姆写道，《独立宣言》依然定义着美国的目标_ ｜ p.211
-• [Political parties are a feature, not a bug, of American democracy, writes H.W. Brands](https://www.google.com/search?q=Political%20parties%20are%20a%20feature%2C%20not%20a%20bug%2C%20of%20American%20democracy%2C%20writes%20H.W.%20Brands%20site%3Aeconomist.com) _H.W. 布兰德斯写道，政党是美国民主的特点，而非缺陷_ ｜ p.212
+• [America at 250](https://www.google.com/search?q=America%20at%20250%20site%3Aeconomist.com) _美国250周年_ ｜ p.205
+• [The Declaration of Independence still defines America’s purpose, writes Jon Meacham](https://www.google.com/search?q=The%20Declaration%20of%20Independence%20still%20defines%20America%E2%80%99s%20purpose%2C%20writes%20Jon%20Meacham%20site%3Aeconomist.com) _乔恩·米查姆写道：《独立宣言》依然定义着美国的目标_ ｜ p.211
+• [Political parties are a feature, not a bug, of American democracy, writes H.W. Brands](https://www.google.com/search?q=Political%20parties%20are%20a%20feature%2C%20not%20a%20bug%2C%20of%20American%20democracy%2C%20writes%20H.W.%20Brands%20site%3Aeconomist.com) _H.W. 布兰德斯写道：政党是美国民主的特征，而非缺陷_ ｜ p.212
 • [Six books to understand the Founding Fathers](https://www.google.com/search?q=Six%20books%20to%20understand%20the%20Founding%20Fathers%20site%3Aeconomist.com) _六本书带你了解开国元勋_ ｜ p.213
 
 
 📂 *Business* ｜ 商业
-• [Asia’s capitalists will need to fight for their revolution](https://www.google.com/search?q=Asia%E2%80%99s%20capitalists%20will%20need%20to%20fight%20for%20their%20revolution%20site%3Aeconomist.com) _亚洲的资本家将需要为他们的革命而战_ ｜ p.215
-• [Arm wants a bigger slice of the chip business](https://www.google.com/search?q=Arm%20wants%20a%20bigger%20slice%20of%20the%20chip%20business%20site%3Aeconomist.com) _安谋希望在芯片业务中分得更大的一块蛋糕_ ｜ p.220
-• [China once stole foreign ideas. Now it wants to protect its own](https://www.google.com/search?q=China%20once%20stole%20foreign%20ideas.%20Now%20it%20wants%20to%20protect%20its%20own%20site%3Aeconomist.com) _中国曾窃取外国创意，现在它想保护自己的创新_ ｜ p.224
+• [Asia’s capitalists will need to fight for their revolution](https://www.google.com/search?q=Asia%E2%80%99s%20capitalists%20will%20need%20to%20fight%20for%20their%20revolution%20site%3Aeconomist.com) _亚洲的资本家将需要为他们革命而战_ ｜ p.215
+• [Arm wants a bigger slice of the chip business](https://www.google.com/search?q=Arm%20wants%20a%20bigger%20slice%20of%20the%20chip%20business%20site%3Aeconomist.com) _芯片业务中Arm想要更大的份额_ ｜ p.220
+• [China once stole foreign ideas. Now it wants to protect its own](https://www.google.com/search?q=China%20once%20stole%20foreign%20ideas.%20Now%20it%20wants%20to%20protect%20its%20own%20site%3Aeconomist.com) _中国曾窃取外国创意，现在想要保护自家知识产权_ ｜ p.224
 • [America’s hottest grocery store is also its priciest](https://www.google.com/search?q=America%E2%80%99s%20hottest%20grocery%20store%20is%20also%20its%20priciest%20site%3Aeconomist.com) _美国最炙手可热的杂货店也是最贵的_ ｜ p.227
-• [The excruciating quest for a meeting room](https://www.google.com/search?q=The%20excruciating%20quest%20for%20a%20meeting%20room%20site%3Aeconomist.com) _寻找会议室的痛苦之旅_ ｜ p.230
-• [Private-equity barons have a giant AI problem](https://www.google.com/search?q=Private-equity%20barons%20have%20a%20giant%20AI%20problem%20site%3Aeconomist.com) _私募股权巨头面临巨大的人工智能问题_ ｜ p.233
+• [The excruciating quest for a meeting room](https://www.google.com/search?q=The%20excruciating%20quest%20for%20a%20meeting%20room%20site%3Aeconomist.com) _寻找会议室的煎熬之旅_ ｜ p.230
+• [Private-equity barons have a giant AI problem](https://www.google.com/search?q=Private-equity%20barons%20have%20a%20giant%20AI%20problem%20site%3Aeconomist.com) _私募股权巨头面临的巨大AI问题_ ｜ p.233
 
 
 📂 *Finance & economics* ｜ 财经
@@ -116,23 +116,23 @@
 • [Chinese homebuyers are enraged by shoddy building standards](https://www.google.com/search?q=Chinese%20homebuyers%20are%20enraged%20by%20shoddy%20building%20standards%20site%3Aeconomist.com) _中国购房者对劣质建筑标准感到愤怒_ ｜ p.254
 • [Why China’s central bank won’t save the country from deflation](https://www.google.com/search?q=Why%20China%E2%80%99s%20central%20bank%20won%E2%80%99t%20save%20the%20country%20from%20deflation%20site%3Aeconomist.com) _为什么中国央行不会将国家从通缩中拯救出来_ ｜ p.257
 • [The coldest crypto winter yet](https://www.google.com/search?q=The%20coldest%20crypto%20winter%20yet%20site%3Aeconomist.com) _迄今为止最冷的加密货币寒冬_ ｜ p.260
-• [How to put a price on a human life](https://www.google.com/search?q=How%20to%20put%20a%20price%20on%20a%20human%20life%20site%3Aeconomist.com) _如何为人类生命定价_ ｜ p.264
+• [How to put a price on a human life](https://www.google.com/search?q=How%20to%20put%20a%20price%20on%20a%20human%20life%20site%3Aeconomist.com) _如何给人类生命定价_ ｜ p.264
 
 
 📂 *Science & technology* ｜ 科技
-• [“Flying” electric boats could remake urban transport](https://www.google.com/search?q=%E2%80%9CFlying%E2%80%9D%20electric%20boats%20could%20remake%20urban%20transport%20site%3Aeconomist.com) _“飞行”电动船可能重塑城市交通_ ｜ p.269
-• [Humans are not the only animals that treat each other’s injuries](https://www.google.com/search?q=Humans%20are%20not%20the%20only%20animals%20that%20treat%20each%20other%E2%80%99s%20injuries%20site%3Aeconomist.com) _人类不是唯一互相治疗伤害的动物_ ｜ p.274
+• [“Flying” electric boats could remake urban transport](https://www.google.com/search?q=%E2%80%9CFlying%E2%80%9D%20electric%20boats%20could%20remake%20urban%20transport%20site%3Aeconomist.com) _“飞行”电动船可能会重塑城市交通_ ｜ p.269
+• [Humans are not the only animals that treat each other’s injuries](https://www.google.com/search?q=Humans%20are%20not%20the%20only%20animals%20that%20treat%20each%20other%E2%80%99s%20injuries%20site%3Aeconomist.com) _人类不是唯一会互相治疗伤害的动物_ ｜ p.274
 • [Robots with human-inspired eyes have better vision](https://www.google.com/search?q=Robots%20with%20human-inspired%20eyes%20have%20better%20vision%20site%3Aeconomist.com) _具有类人眼的机器人拥有更好的视觉_ ｜ p.277
-• [Does being induced lead to a medicalised birth?](https://www.google.com/search?q=Does%20being%20induced%20lead%20to%20a%20medicalised%20birth%3F%20site%3Aeconomist.com) _诱导分娩是否导致医疗化分娩？_ ｜ p.280
+• [Does being induced lead to a medicalised birth?](https://www.google.com/search?q=Does%20being%20induced%20lead%20to%20a%20medicalised%20birth%3F%20site%3Aeconomist.com) _催产是否导致医疗化分娩？_ ｜ p.280
 
 
 📂 *Culture* ｜ 文化
-• [Need a bit of dating help? The caveman’s guide to romance](https://www.google.com/search?q=Need%20a%20bit%20of%20dating%20help%3F%20The%20caveman%E2%80%99s%20guide%20to%20romance%20site%3Aeconomist.com) _需要一些约会帮助吗？《穴居人的浪漫指南》_ ｜ p.284
+• [Need a bit of dating help? The caveman’s guide to romance](https://www.google.com/search?q=Need%20a%20bit%20of%20dating%20help%3F%20The%20caveman%E2%80%99s%20guide%20to%20romance%20site%3Aeconomist.com) _需要约会帮助吗？《穴居人的浪漫指南》_ ｜ p.284
 • [The world is suffering from a shortage of tenors](https://www.google.com/search?q=The%20world%20is%20suffering%20from%20a%20shortage%20of%20tenors%20site%3Aeconomist.com) _世界正面临男高音短缺_ ｜ p.288
-• [Sex, sex and more sex: Emerald Fennell’s “Wuthering Heights”](https://www.google.com/search?q=Sex%2C%20sex%20and%20more%20sex%3A%20Emerald%20Fennell%E2%80%99s%20%E2%80%9CWuthering%20Heights%E2%80%9D%20site%3Aeconomist.com) _性，性，更多的性：艾米丽·芬内尔的《呼啸山庄》_ ｜ p.291
-• [Africa needs to follow Asia’s path to grow](https://www.google.com/search?q=Africa%20needs%20to%20follow%20Asia%E2%80%99s%20path%20to%20grow%20site%3Aeconomist.com) _非洲需要跟随亚洲的发展道路_ ｜ p.295
-• [The rise of the 9-to-5 influencer](https://www.google.com/search?q=The%20rise%20of%20the%209-to-5%20influencer%20site%3Aeconomist.com) _朝九晚五的网红崛起_ ｜ p.298
-• [Real-life “Succession”: Media’s most dysfunctional family](https://www.google.com/search?q=Real-life%20%E2%80%9CSuccession%E2%80%9D%3A%20Media%E2%80%99s%20most%20dysfunctional%20family%20site%3Aeconomist.com) _现实版《继承之战》：媒体界最不和谐的家庭_ ｜ p.300
+• [Sex, sex and more sex: Emerald Fennell’s “Wuthering Heights”](https://www.google.com/search?q=Sex%2C%20sex%20and%20more%20sex%3A%20Emerald%20Fennell%E2%80%99s%20%E2%80%9CWuthering%20Heights%E2%80%9D%20site%3Aeconomist.com) _性和更多的性：艾米丽·芬内尔的《呼啸山庄》_ ｜ p.291
+• [Africa needs to follow Asia’s path to grow](https://www.google.com/search?q=Africa%20needs%20to%20follow%20Asia%E2%80%99s%20path%20to%20grow%20site%3Aeconomist.com) _非洲需要追随亚洲的发展道路_ ｜ p.295
+• [The rise of the 9-to-5 influencer](https://www.google.com/search?q=The%20rise%20of%20the%209-to-5%20influencer%20site%3Aeconomist.com) _9到5点的网红崛起_ ｜ p.298
+• [Real-life “Succession”: Media’s most dysfunctional family](https://www.google.com/search?q=Real-life%20%E2%80%9CSuccession%E2%80%9D%3A%20Media%E2%80%99s%20most%20dysfunctional%20family%20site%3Aeconomist.com) _现实版《继承之战》：媒体界最功能失调的家庭_ ｜ p.300
 
 
 📂 *Economic & financial indicators* ｜ 经济指标
@@ -140,7 +140,7 @@
 
 
 📂 *Obituary* ｜ 讣告
-• [Virginia Oliver worked Maine’s waters for nearly a century](https://www.google.com/search?q=Virginia%20Oliver%20worked%20Maine%E2%80%99s%20waters%20for%20nearly%20a%20century%20site%3Aeconomist.com) _弗吉尼亚·奥利弗近一个世纪以来在缅因州水域工作_ ｜ p.308
+• [Virginia Oliver worked Maine’s waters for nearly a century](https://www.google.com/search?q=Virginia%20Oliver%20worked%20Maine%E2%80%99s%20waters%20for%20nearly%20a%20century%20site%3Aeconomist.com) _弗吉尼亚·奥利弗近一个世纪来在缅因州水域工作_ ｜ p.308
 
 ──────────────────────────────────────────────────
 
